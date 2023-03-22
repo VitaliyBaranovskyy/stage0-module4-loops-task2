@@ -6,7 +6,7 @@ public class PowerOfTwo {
         int a = 1;
         int c = 1;
         
-        while (a>0 & a<=power){
+        while (a>0 && a<=power){
          c = c*i;
             System.out.println(i + "в ступені " + a + " = " + c);
             a++;
